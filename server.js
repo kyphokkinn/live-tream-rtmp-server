@@ -23,7 +23,7 @@ require('./app/controllers/socketIO')(io);
 mongoose.Promise = global.Promise;
 global.appRoot = path.resolve(__dirname);
 
-mongoose.connect('mongodb://upetjhl1lomanzvjzhwj:G4nSsXr9VFmXnd6yXSpo@b645tlpaeflftbj-mongodb.services.clever-cloud.com:27017/b645tlpaeflftbj', (err) => {
+mongoose.connect('mongodb://upetjhl1lomanzvjzhwj:f7SZFzFwjuVqpOKLvcnd@b645tlpaeflftbj-mongodb.services.clever-cloud.com:27017/b645tlpaeflftbj', (err) => {
   if (err) {
     console.log('....................... ERROR CONNECT TO DATABASE');
     console.log(err);
